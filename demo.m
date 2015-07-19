@@ -1,4 +1,4 @@
-cofw_train_path = 'cofw_train.mat';
+cofw_train_path = 'COFW_train.mat';
 load(cofw_train_path, 'phisTr','IsTr','bboxesTr');
 
 st = length(IsTr) - 500; % Skips LFPW part of the dataset.
